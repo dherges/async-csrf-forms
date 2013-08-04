@@ -1,0 +1,19 @@
+{
+    "validthis": true
+  , "asi": true
+  , "bitwise": true
+  , "camelcase": true
+  , "eqeqeq": true
+  , "eqnull": true
+  , "debug": true
+  , "devel": true
+  , "expr": true
+  , "indent": 2
+  , "laxbreak": true
+  , "laxcomma": true
+  , "trailing": true
+  , "quotmark": "single"
+  , "sub": true
+  , "boss": true
+  , "browser": true
+}
