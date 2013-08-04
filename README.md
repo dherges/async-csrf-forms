@@ -1,6 +1,8 @@
 async-csrf-forms
 ================
 
+[![Build Status](https://travis-ci.org/dherges/async-csrf-forms.png?branch=master)](https://travis-ci.org/dherges/async-csrf-forms)
+
 > Utile client-side javascript to inject CSRF tokens into forms asynchronously.
 
 Benefits:
