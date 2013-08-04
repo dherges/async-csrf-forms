@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>async-csrf-forms (jQuery)</title>
+</head>
+<body>
+  <form id="exampleForm" action="/poc/action" method="POST" data-x-csrf-url="/poc/token">
+    <input type="text" name="someValue" value=""><br>
+    <input type="text" name="otherValue" value=""><br>
+    <input type="submit" value="Submit form">
+  </form>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.js"></script>
+  <script src="../lib/xcsrf.js"></script>
+  <script>
+    // jBeast style
+    $('#exampleForm').xcsrf();
+  </script>
+
+</body>
+</html>

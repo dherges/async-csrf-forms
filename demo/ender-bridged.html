@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>async-csrf-forms ($.ender client API)</title>
+</head>
+<body>
+  <form id="exampleForm" action="/poc/action" method="POST" data-x-csrf-url="/poc/token">
+    <input type="text" name="someValue" value=""><br>
+    <input type="text" name="otherValue" value=""><br>
+    <input type="submit" value="Submit form">
+  </form>
+
+  <script src="./ender.js"></script>
+  <script src="../lib/xcsrf.js"></script>
+  <script src="../lib/bridge.js"></script>
+  <script>
+    // without the client-bridge, we're much more nicer :-)
+    $('#exampleForm').xcsrf();
+  </script>
+</body>
+</html>
