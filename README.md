@@ -69,7 +69,7 @@ If you do not wish to use the pattern, disable the  ```cookie``` option. You wil
 ### Downsides of this approach
 
 Q: JavaScript must be enabled in the browser.<br>
-A: Yes, welcome to 2013.
+A: Yes.
 
 Q: What if, the request handling for tokens is messed up?<br>
 A: Game over. See advisory above. Your application needs a secure way to generate, deliver, and match tokens. There are frameworks that take over this job. This library will not!
